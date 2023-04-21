@@ -1,0 +1,41 @@
+.seven{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    height: 150px;
+    
+}
+.seven .bttnn{
+    border:2px solid transparent;
+    border-radius: 2em;
+    background-image: linear-gradient(white,white),
+    radial-gradient(circle at bottom right,purple,orange);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    height: 40%;
+    margin: 3%;
+    
+}
+.seven h3{
+    margin: 3.5%;
+    color: white;
+    float: left;
+    padding-right: 17%;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 500px){
+    .seven{
+        flex-direction: column;
+    }
+    .seven h3{
+        font-size: 1.2em;
+        justify-content: center;
+        padding-left: 10%;
+    }
+    .seven .bttnn{
+        width: 60%;
+        text-align: center;
+        margin-left: 15%;
+    }
+}

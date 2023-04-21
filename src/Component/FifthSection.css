@@ -1,0 +1,42 @@
+
+.desccc h1{
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 3%;
+ }
+.desccc p{
+     text-align: center;
+     font-size: 15;
+     padding: 0px 10px;
+}
+.gallery img{
+    width: 97%;
+    height: auto;
+}
+.desc h1{
+    padding: 0px;
+    text-align: center;
+}
+desc p{
+    padding: 0px;
+    text-align: center;
+}
+
+.Fifth{
+    padding: 0 6px;
+    float: right;
+    width: 32.5%;
+}
+
+@media only screen and (max-width: 700px) {
+    .Fifth{
+        width: 50%;
+        margin:6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Fifth{
+        width: 100%;
+    }
+}

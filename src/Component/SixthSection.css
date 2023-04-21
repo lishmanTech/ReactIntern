@@ -1,0 +1,54 @@
+
+.discc h1{
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 3%;
+ }
+.discc p{
+     text-align: center;
+     font-size: 15;
+     padding-bottom: 2%;
+} 
+.picture img{
+    width: 80%;
+    height: auto;
+}
+.desc {
+    padding: 0px;
+    text-align: center;
+}
+
+.Sixth{
+    padding: 0 3px;
+    float: right;
+    width: 23.5%;
+}
+.butnnBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;;
+    padding: 3% 0;
+}
+.btnnn{
+    border:2px solid transparent;
+    border-radius: 2em;
+    background-image: linear-gradient(aqua,aqua),
+    radial-gradient(circle at bottom right,purple,orange);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+@media only screen and (max-width: 700px) {
+    .Sixth{
+        width: 50%;
+        margin:6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Sixth{
+        width: 100%;
+        padding-left: 15%;
+    }
+}

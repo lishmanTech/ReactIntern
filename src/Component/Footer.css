@@ -1,0 +1,96 @@
+/* footer .contan{
+    background-color: black;
+} */
+.rooww{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.footer-col ul{
+    list-style: none;
+} 
+.footer-col h4{
+    color: aqua;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    font-family: 'Ubuntu', 'sans-seriff';
+}
+.footer-col ul li{
+    padding: 10px 0;
+}
+.footer-col ul li span{
+    padding-left:15px;
+}
+.footer-col ul li .lik{
+   color: black;
+   text-decoration: none;
+   font-size: 16px;
+   opacity: 0.7;
+   transition: 0.5;
+}
+.footer-col ul li .lik:hover{
+    opacity: 1;
+}
+.roowww{
+    padding: 18px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+.roowww .socialicons .i{
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+.footer-col .looggoo{
+    width: 70px;
+}
+.footer-col .slogan{
+    width: 260px;
+}
+.bbttnn{
+  color: #fff;
+  padding:3 0;
+  background-color: green;
+  border: none;
+  border-radius: 2px;
+  font-size: 0.1em;
+  transition: .4s;
+  cursor: pointer;
+  width: 45%;
+  margin: 3% 0%;
+}
+.bbttnn .readMore{
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.5em 0.3em;
+    text-decoration: none;
+    color: #301934;
+}
+@media (max-width: 600px){
+    footer .rooww{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+    .footer-col .slogan{
+        width: 300px;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-bottom: 0%;
+    }
+    .footer-col ul{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .roowww{
+        flex-direction: column;
+        
+    }
+    .bbttnn{
+        padding:0 5%;
+        margin-left: 5%;
+      }
+
+}

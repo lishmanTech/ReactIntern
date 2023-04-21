@@ -1,0 +1,92 @@
+.beg h1{
+    width: 100%;
+      text-align: center;
+      font-size: 2.5em;
+      padding-top: 3%;
+}
+hr .hii{
+    border: none;
+    height: 1px;
+}
+.mainSecc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contentbox{
+    width: 40%;
+    padding-left: 0.5em;
+    padding-top: 1%;
+}
+.contentbox h1{
+    font-size: 1.5rem;
+    color: #301934;
+}
+.contentbox p{
+    font-size: 1rem;
+    margin: 1em 0;
+    font-family: 'poppins', sans-serif;
+}
+.butnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;;
+    padding-bottom: 30%;
+}
+.btnn{
+    border:2px solid transparent;
+    border-radius: 2em;
+    background-image: linear-gradient(#fff,#fff),
+    radial-gradient(circle at bottom right,purple,orange);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.readMore{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: .5em 1.5em;
+    text-decoration: none;
+    color: #301934;
+}
+.imgContainer{
+    width: 50%;
+    height: 50%;
+}
+.imgContainer img{
+    width: 95%;
+    margin: 0 10;
+    display: block;
+    padding-top: 0%;
+
+}
+
+/* Media Queries */
+@media screen and (max-width:900px){
+    html{
+        font-size: 14px;
+    };
+}
+    @media screen and (max-width:768px){
+        html{
+            font-size: 14px;
+        }
+        .mainSec{
+            flex-direction: column;
+            padding: 0%;
+            margin-top: 1em;
+        }
+        .contentbox{
+            width: 90%;
+            margin:0 auto;
+            padding-bottom: 0;
+        }
+        .contentbox h1{
+            font-size: 2rem;
+        }
+    .imgContainer{
+        width: 80%;
+        display: none;
+    }
+
+}
